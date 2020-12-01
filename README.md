@@ -4,7 +4,7 @@
 
 > PROJECT DESCRIPTION .
 
-![screenshot](\img\cap-stone.jpg)
+![screenshot](img/cap-stone.jpg)
 
 Additional description about the project and its features.
 
