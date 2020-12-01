@@ -3,6 +3,7 @@
 # LOUIS INC
 
 > PROJECT DESCRIPTION .
+This is  the capstone project of the html and css module of the mocroverse main curriculum, the project is based on an online website for BANTUFEST, inspired by the design created by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ![screenshot](img/cap-stone.jpg)
 
@@ -15,12 +16,12 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://#)
+[Live Demo Link](https://raw.githack.com/alvinlouis29/LOUIS-INC/capstone/index.html)
 
 
 ## PROJECT DESCRIPTION
 
-** This is my capstone project*
+** This is my HTML/CSS capstone project from the microverse curriculum*
 
 ## Author
 
