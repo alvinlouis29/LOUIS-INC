@@ -1,0 +1,42 @@
+$primary-color: #272A31;
+$accent-color: #EC5242;
+$secondary-color: #D3D3D3;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.intro {
+    background-image: url(/LOUIS-INC/img/1.JPG);
+    background-size: cover;
+    height: 100vh;
+    padding: 20%;
+
+    .content {
+    color: #EC5242;
+    padding: auto auto;
+    margin: 0;
+
+        .sub {
+            
+        }
+
+        .main {
+
+        }
+    }
+}
