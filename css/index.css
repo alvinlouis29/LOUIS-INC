@@ -1,4 +1,6 @@
 * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -8,10 +10,6 @@ body {
   padding: 0;
 }
 
-html, body {
-  height: 100vh;
-}
-
 .hidden {
   display: none;
 }
@@ -19,7 +17,7 @@ html, body {
 .intro {
   background-image: url(/LOUIS-INC/img/1.JPG);
   background-size: cover;
-  height: 100vh;
+  height: 600px;
   padding: 20%;
 }
 
@@ -27,5 +25,52 @@ html, body {
   color: #EC5242;
   padding: auto auto;
   margin: 0;
+}
+
+.intro .content .sub {
+  font-size: small;
+}
+
+.intro .content .main {
+  font-size: large;
+}
+
+.main-program {
+  background-color: #2e2d2d;
+  color: #D3D3D3;
+  padding: 10px auto;
+}
+
+.main-program .program {
+  background-color: #646464;
+  padding: 10px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-program .program .p-icon {
+  fill: #D3D3D3;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+.main-program .program .p-title {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.main-program .program .p-text {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.featured-speaker {
+  padding: 0 0;
+  margin: 0 0;
 }
 /*# sourceMappingURL=index.css.map */
