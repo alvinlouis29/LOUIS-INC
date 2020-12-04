@@ -10,16 +10,25 @@ body {
     display: none;
 }
 
+.head {
+    position: relative;
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+    }
+}
+
 .intro {
-    background-image: url(/LOUIS-INC/img/1.JPG);
+    background-color: $secondary-color;
     background-size: cover;
-    height: 600px;
-    padding: 20%;
+    padding: 10px;
 
     .content {
     color: $accent-color;
-    padding: auto auto;
-    margin: 0;
+    padding: 10px;
 
         .sub {
             font-size: small;
@@ -38,32 +47,39 @@ body {
 
         .program {
             background-color: #646464;
-            padding: 10px;
+            padding: 5px;
             margin: 10px;
             display: flex;
 
             .p-icon {
                 fill: $secondary-color;
-                width: 50px;
-                height: 50px;
                 margin: 0;
+                width: fit-content;
             }
 
             .p-title {
                 font-size: 10px;
-                padding: 0;
+                padding: 10px;
                 margin: 0;
+                width: fit-content;
             }
             
             .p-text {
                 font-size: 10px;
-                padding: 0;
+                padding: 0 auto;
                 margin: 0;
             }
         }
 }
 
 .featured-speaker {
-    padding: 0 0;
-    margin: 0 0;
+    padding: 0;
+    margin: 0;
+
+    .featured {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin: 0;
+    }
 }
