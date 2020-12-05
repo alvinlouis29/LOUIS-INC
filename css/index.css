@@ -35,7 +35,7 @@ body {
 }
 
 .intro .content {
-  color: #EC5242;
+  color: #ec5242;
   padding: 10px;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .intro .featured {
-  color: #272A31;
+  color: #272a31;
   margin-bottom: 20px;
   padding: 3px;
 }
@@ -69,7 +69,7 @@ body {
 
 .main-program {
   background-color: #2e2d2d;
-  color: #D3D3D3;
+  color: #d3d3d3;
   padding: 10px;
 }
 
@@ -86,7 +86,7 @@ body {
   margin: 0 auto;
   width: 10%;
   padding-top: 10px;
-  border-bottom: 1px solid #EC5242;
+  border-bottom: 1px solid #ec5242;
 }
 
 .main-program .program {
@@ -99,11 +99,8 @@ body {
 }
 
 .main-program .program .p-icon {
-  fill: #D3D3D3;
+  fill: #d3d3d3;
   margin: 0;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -114,7 +111,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  color: #EC5242;
+  color: #ec5242;
   margin: 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -130,7 +127,7 @@ body {
 .main-program .join {
   text-align: center;
   padding: 3px;
-  background-color: #EC5242;
+  background-color: #ec5242;
   color: #ffffff;
   margin: 10px;
 }
@@ -138,13 +135,13 @@ body {
 .speakers {
   padding: 10px;
   background-color: #ffffff;
-  color: #272A31;
+  color: #272a31;
 }
 
 .speakers h5 {
   padding: 10px;
   text-align: center;
-  color: #272A31;
+  color: #272a31;
 }
 
 .speakers h5:after {
@@ -153,7 +150,7 @@ body {
   margin: 0 auto;
   width: 10%;
   padding-top: 20px;
-  border-bottom: 1px solid #EC5242;
+  border-bottom: 1px solid #ec5242;
 }
 
 .speakers .speaker {
@@ -196,7 +193,7 @@ body {
 
 .speakers .speaker .f-text .f-title {
   font-style: italic;
-  color: #EC5242;
+  color: #ec5242;
   font-size: x-small;
 }
 
@@ -207,7 +204,7 @@ body {
   width: 10%;
   padding: 5px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #272A31;
+  border-bottom: 1px solid #272a31;
 }
 
 .speakers .speaker .f-text .f-teenage {
@@ -219,11 +216,11 @@ body {
   font-size: smaller;
   padding: 10px;
   margin: 15px 0;
-  border: 0.1px solid #272A31;
+  border: 0.1px solid #272a31;
 }
 
 .speakers .more i {
   padding: 5px;
-  fill: #EC5242;
+  fill: #ec5242;
 }
 /*# sourceMappingURL=index.css.map */
