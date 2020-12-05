@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: $font-stack;
 }
 
 .hidden {
@@ -22,20 +23,43 @@ body {
 }
 
 .intro {
-    background-color: $secondary-color;
+    background-color: #333333dc;
+    background-image: url(/LOUIS-INC/img/download.jpg);
     background-size: cover;
     padding: 10px;
+    z-index: 1;
 
     .content {
     color: $accent-color;
     padding: 10px;
 
-        .sub {
-            font-size: small;
+        h5 {
+            font-weight: 200;
         }
 
-        .main {
-            font-size: large;
+        h1 {
+            font-weight: bolder;
+        }
+    }
+
+    .welcome {
+        padding: 10px;
+        border: #ffffff 2px solid;
+
+
+        p {
+            margin: 0;
+           font-size: small;
+        }
+    }
+
+    .featured {
+        color: $primary-color;
+        margin-bottom: 20px;
+        padding: 3px;
+
+        .date {
+            font-family: $font-monospace;
         }
     }
 }
@@ -43,43 +67,148 @@ body {
 .main-program {
     background-color: #2e2d2d;
     color: $secondary-color;
-    padding: 10px auto;
+    padding: 10px;
+    
+        h3 {
+            font-size: larger;
+            padding: 5px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        h3:after {
+            content: "";
+            display: block;
+            margin: 0 auto;
+            width: 10%;
+            padding-top: 10px;
+            border-bottom: 1px solid $accent-color;
+        }
 
         .program {
             background-color: #646464;
             padding: 5px;
             margin: 10px;
             display: flex;
-
+            
             .p-icon {
                 fill: $secondary-color;
                 margin: 0;
+                align-self: center;
                 width: fit-content;
             }
 
             .p-title {
-                font-size: 10px;
-                padding: 10px;
+                font-size: 12px;
+                align-self: center;
+                color: $accent-color;
                 margin: 0;
                 width: fit-content;
             }
             
             .p-text {
-                font-size: 10px;
-                padding: 0 auto;
+                font-size: 11px;
+                padding: 0 2px;
                 margin: 0;
             }
         }
+
+        .join {
+            text-align: center;
+            padding: 3px;
+            background-color: $accent-color;
+            color: #ffffff;
+            margin: 10px;
+        }
 }
 
-.featured-speaker {
-    padding: 0;
-    margin: 0;
+.speakers {
+    padding: 10px;
+    background-color: #ffffff;
+    color: $primary-color;
 
-    .featured {
-    display: flex;
-    flex-direction: row;
-    padding: 2px;
-    margin: 0;
-    }
+        h5 {
+            padding: 10px;
+            text-align: center;
+            color: $primary-color;
+        }
+
+        h5:after {
+            content: "";
+            display: block;
+            margin: 0 auto;
+            width: 10%;
+            padding-top: 20px;
+            border-bottom: 1px solid $accent-color;
+        }
+
+        .speaker {
+            background-color: #ffffff;
+            padding: 2px;
+            margin: 4px;
+            display: flex;
+            
+            .f-share {
+                font-weight:bold;
+            }
+
+            .f-image {
+                position: relative;
+                padding: 5px;
+                width: 40%;
+                height: 80%;
+                margin-top: 10px;
+                margin-left: 10px;
+                background-size: 70%;
+                background-repeat: no-repeat;
+                background-image: url(/LOUIS-INC/img/1.JPG);
+
+                img {
+                    position: absolute;
+                    right: 0;
+                    bottom: 10%;
+                    width: 90%;
+                }
+            }
+
+            .f-text {
+                margin-left: 10px;
+                padding: 10px;
+                float: right;
+
+                .f-title {
+                    font-style: italic;
+                    color: $accent-color;
+                    font-size: x-small;
+                }
+
+                .f-title:after {
+                    content: "";
+                    display: block;
+                    margin: 0;
+                    width: 10%;
+                    padding: 5px;
+                    margin-bottom: 10px;
+                    border-bottom: 1px solid $primary-color;
+                }
+
+                .f-teenage {
+                    font-size: smaller;
+                }
+            }
+
+        }
+
+        .more {
+            text-align: center;
+            font-size: smaller;
+            padding: 10px;
+            margin: 15px 0;
+            border: 0.1px solid $primary-color;
+
+                i {
+                    padding: 5px;
+                    fill: $accent-color;
+                }
+        }
 }
