@@ -1,0 +1,303 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  .head {
+    position: relative;
+  }
+  
+  .head .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+  }
+  
+  .intro {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='.5' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cuse fill='%23fafafa' href='%23s' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='2'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(50) translate(-980 -735)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px;
+    z-index: 1;
+  }
+  
+  .intro .content {
+    color: #ec5242;
+    padding: 10px;
+  }
+  
+  .intro .content h5 {
+    font-weight: 200;
+  }
+  
+  .intro .content h1 {
+    font-weight: bolder;
+  }
+  
+  .intro .welcome {
+    padding: 10px;
+    border: #fff 2px solid;
+  }
+  
+  .intro .welcome p {
+    margin: 0;
+    font-size: small;
+  }
+  
+  .intro .featured {
+    color: #272a31;
+    margin-bottom: 20px;
+    padding: 3px;
+  }
+  
+  .intro .featured .date {
+    font-family: "COCOGOOSE", sans-serif;
+  }
+  
+  .main-program {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    color: #d3d3d3;
+    padding: 10px;
+  }
+  
+  .main-program h3 {
+    font-size: larger;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .main-program h3:after {
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 10px;
+    border-bottom: 1px solid #ec5242;
+  }
+  
+  .main-program .program {
+    background-color: #646464c7;
+    padding: 5px;
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .main-program .program .p-icon {
+    fill: #d3d3d3;
+    margin: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  
+  .main-program .program .p-title {
+    font-size: 12px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    color: #ec5242;
+    margin: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  
+  .main-program .program .p-text {
+    font-size: 11px;
+    padding: 0 2px;
+    margin: 0;
+  }
+  
+  .main-program .join {
+    text-align: center;
+    padding: 3px;
+    background-color: #ec5242;
+    color: #fff;
+    margin: 10px;
+  }
+  
+@media screen and (min-width: 320px) {
+
+  .speakers {
+    padding: 10px;
+    background-color: #fff;
+    color: #272a31;
+  }
+  
+  .speakers h5 {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color: #272a31;
+  }
+  
+  .speakers h5:after {
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 20px;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .speakers #hide {
+      display: none;
+      background-color: rgb(82, 1, 1);
+  }
+  
+  .speakers .speaker {
+    background-color: #fff;
+    padding: 2px;
+    margin: 4px;
+    display: flex;
+  }
+  
+  .speakers .speaker .f-share {
+    font-weight: bold;
+  }
+  
+
+  .speakers .speaker .image {
+    position: relative;
+    padding: 2px;
+    display: block;
+  }
+
+  .speakers .speaker .image .f-image {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-image: url(/LOUIS-INC/img/box.jpg);
+
+  }
+  
+  .speakers .speaker .image .f-image .over {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .speakers .speaker .f-share h6 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .speakers .speaker .f-text {
+    margin-left: 10px;
+    padding: 5px;
+    float: right;
+  }
+  
+  .speakers .speaker .f-text .f-title {
+    font-style: italic;
+    color: #ec5242;
+    font-size: 10px;
+  }
+  
+  .speakers .speaker .f-text .f-title:after {
+    content: " ";
+    display: block;
+    margin: 0;
+    width: 10%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #272a31;
+  }
+  
+  .speakers .speaker .f-text .f-teenage {
+    font-size: 11px;
+  }
+  
+  .speakers .more {
+    text-align: center;
+    font-size: smaller;
+    padding: 10px;
+    margin: 15px 0;
+    border: 0.1px solid #272a31;
+  }
+  
+  .speakers .more i {
+    padding: 5px;
+    fill: #ec5242;
+  }
+}
+  @media screen and (min-width: 768px) {
+
+    .speakers {
+        padding: 5px;
+    }
+
+    .speakers #hide {
+        padding: 10px;
+        max-width: 47%;
+        display: flex;
+        background-color: #fff;
+    }
+
+    .speakers .speaker {
+        padding: 5px;
+        max-width: 47%;
+    }
+
+    .wide {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+    
+    .speakers .speaker .wide .f-image {
+        margin-right: 10px;
+    }
+    
+    .speakers .speaker .f-image img {
+        position: absolute;
+        margin: 0;
+        left: 12px;
+        width: 100px;
+        top: 12px;
+    } 
+
+    .speaker .speaker .f-text {
+        width: 70%;
+    }
+
+    .speakers .speaker .f-share h6 {
+        font-weight: bold;
+    }
+
+    .speakers .speaker .f-text .f-title {
+        font-size: 9px;
+    }
+
+    .speakers .speaker .f-text .f-teenage {
+        font-size: 10px;
+    }
+
+    .wide {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+  }
