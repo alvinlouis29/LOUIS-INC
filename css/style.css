@@ -99,9 +99,10 @@
     display: -ms-flexbox;
     display: flex;
   }
-  
+
   .main-program .program .p-icon {
     fill: #d3d3d3;
+    align-self: center;
     margin: 0;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -123,6 +124,7 @@
   .main-program .program .p-text {
     font-size: 11px;
     padding: 0 2px;
+    justify-content: center;
     margin: 0;
   }
   
@@ -131,10 +133,22 @@
     padding: 3px;
     background-color: #ec5242;
     color: #fff;
-    margin: 10px;
+    margin: 30px 10px 10px 10px;
+  }
+
+  .main-program .join-text {
+    display: none;
   }
   
 @media screen and (min-width: 320px) {
+
+  .bla {
+    margin:5px 0 60px 0;
+  }
+
+  .main-program .program .put {
+    margin: 5px 0 40px 0;
+  }
 
   .speakers {
     padding: 10px;
@@ -242,6 +256,63 @@
   }
 }
   @media screen and (min-width: 768px) {
+    .bla {
+        margin:5px 0 60px 0;
+        text-align: center;
+        align-content: center;
+    }
+
+    .join {
+        display: none;
+    }
+
+    .main-program .join-text {
+        display: unset;
+        align-self: center;
+        font-size: smaller;
+        font-weight: bold;
+    }
+
+    .put {
+        padding: 10px 10px 20px 10px;
+        display: block;
+        width: 100%;
+        margin: 10px 0 15px 10px;
+    }
+
+    .main {
+        display: flex;
+        width: 18%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center ;
+        margin: 1px;
+    }
+
+    .main-program .p-title {
+        align-content: center;
+    }
+
+    .main-program .p-text{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .main .program {
+        margin: 2px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .program .p-title {
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .main .program .p-text {
+        font-size: 9px;
+    }
 
     .speakers {
         padding: 5px;
@@ -292,6 +363,10 @@
 
     .speakers .speaker .f-text .f-teenage {
         font-size: 10px;
+    }
+
+    .speakers .more {
+        display: none;
     }
 
     .wide {
