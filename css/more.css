@@ -1,0 +1,14 @@
+#main {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+#land {
+    background-image:none;
+    background-color: azure;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+}
