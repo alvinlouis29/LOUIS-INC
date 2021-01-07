@@ -92,7 +92,7 @@ body {
   color: #fff;
 }
 
-.main-program h3:after {
+.main-program h3::after {
   content: " ";
   display: block;
   margin: 0 auto;
@@ -106,7 +106,6 @@ body {
   padding: 5px;
   margin: 10px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -114,8 +113,6 @@ body {
   fill: #d3d3d3;
   align-self: center;
   margin: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -126,8 +123,6 @@ body {
   align-self: center;
   color: #ec5242;
   margin: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -154,20 +149,24 @@ body {
   .bla {
     margin: 5px 0 60px 0;
   }
+
   .main-program .program .put {
     margin: 5px 0 40px 0;
   }
+
   .speakers {
     padding: 10px;
     background-color: #fff;
     color: #272a31;
   }
+
   .speakers h5 {
     font-weight: bold;
     padding: 10px;
     text-align: center;
     color: #272a31;
   }
+
   .speakers h5:after {
     content: " ";
     display: block;
@@ -176,25 +175,30 @@ body {
     padding-top: 20px;
     border-bottom: 1px solid #ec5242;
   }
+
   .speakers .hide {
     display: none;
     background-color: rgb(82, 1, 1);
   }
+
   .speakers .speaker {
     background-color: #fff;
     padding: 2px;
     margin: 4px;
     display: flex;
   }
+
   .speakers .speaker .f-share {
     font-weight: bold;
   }
+
   .speakers .speaker .image {
     position: relative;
     padding: 2px;
     display: block;
     width: 100%;
   }
+
   .speakers .speaker .image .f-image {
     width: 100px;
     height: 100px;
@@ -205,24 +209,29 @@ body {
     background-repeat: no-repeat;
     background-image: url(/LOUIS-INC/img/box.jpg);
   }
+
   .speakers .speaker .image .f-image .over img {
     height: auto;
     width: 20px;
   }
+
   .speakers .speaker .f-share h6 {
     font-weight: bold;
     font-size: 12px;
   }
+
   .speakers .speaker .f-text {
     margin-left: 10px;
     padding: 5px;
     float: right;
   }
+
   .speakers .speaker .f-text .f-title {
     font-style: italic;
     color: #ec5242;
     font-size: 10px;
   }
+
   .speakers .speaker .f-text .f-title:after {
     content: " ";
     display: block;
@@ -232,9 +241,11 @@ body {
     margin-bottom: 10px;
     border-bottom: 1px solid #272a31;
   }
+
   .speakers .speaker .f-text .f-teenage {
     font-size: 11px;
   }
+
   .speakers .more {
     text-align: center;
     font-size: smaller;
@@ -242,21 +253,25 @@ body {
     margin: 15px 0;
     border: 0.1px solid #272a31;
   }
+
   .speakers .more i {
     padding: 5px;
     fill: #ec5242;
   }
+
   .partner {
     padding: 10px;
     background-color: rgb(41, 41, 41);
     color: #272a31;
   }
+
   .partner h5 {
     font-weight: bold;
     padding: 10px;
     text-align: center;
     color: #686969;
   }
+
   .partner h5:after {
     content: " ";
     display: block;
@@ -265,11 +280,13 @@ body {
     padding-top: 20px;
     border-bottom: 1px solid #ec5242;
   }
+
   .partner .place {
     padding: 10px;
     display: flex;
     flex-direction: column;
   }
+
   .partner .place .partners {
     padding: 10px;
     align-items: center;
@@ -280,23 +297,28 @@ body {
     flex-direction: row;
     width: fit-content;
   }
+
   .partner .place .partners .p-logo {
     padding: 5px;
     margin: 2px 2px;
   }
+
   .partner .place .partners .p-logo img {
     width: 50px;
     height: 50px;
   }
+
   footer {
     display: block;
     padding: 2px;
   }
+
   .foot {
     display: flex;
     flex-direction: column;
     padding: 2px;
   }
+
   .foot .f-content {
     display: flex;
     flex-direction: row;
@@ -304,11 +326,13 @@ body {
     padding: 20px;
     justify-content: space-between;
   }
+
   .foot .f-content .f-logo img {
     width: 50px;
     height: 50px;
     margin: auto;
   }
+
   .foot .f-content .f-text {
     display: flex;
     flex-direction: column;
@@ -316,9 +340,11 @@ body {
     margin: auto;
     padding: 0 0 0 10%;
   }
+
   .foot .f-content .f-text .copyright h6 {
     font-size: 10px;
   }
+
   .foot .f-content .f-text .license p {
     display: none;
   }
@@ -328,19 +354,23 @@ body {
   .head {
     position: relative;
   }
+
   .head .nav-bar {
     display: flex;
     flex-direction: column;
   }
+
   .nav-item {
     padding: 10px 10%;
     display: flex;
     flex-direction: row;
   }
+
   .nav-bar .nav-item .nav-logo img {
     width: 50px;
     height: auto;
   }
+
   .nav-bar .nav-item .nav-list {
     display: flex;
     flex-direction: row;
@@ -348,64 +378,79 @@ body {
     position: absolute;
     right: 10%;
   }
+
   .nav-bar .nav-item .nav-list .nav-tab {
     padding: 10px;
     margin: 5px 0 5px 0;
   }
+
   .nav-bar .nav-item .nav-list .nav-tab a {
     text-decoration: none;
     color: #272a31;
   }
+
   .nav-bar .nav-item .nav-list .nav-tab a:active {
     color: #ec5242;
     font-family: "Lato", sans-serif;
   }
+
   .menu {
     display: none;
   }
+
   .intro .content {
     padding: 10px 10%;
   }
+
   .intro .content .sub {
     display: flex;
     font-size: 70px;
     font-weight: bolder;
   }
+
   .intro .cintent .main {
     font-size: 500px;
     font-weight: bolder;
     line-height: 50px;
   }
+
   .intro .welcome {
     padding: 10px 10%;
     width: 80%;
   }
+
   .intro .featured {
     margin: 5px auto;
     padding: 10px 10%;
   }
+
   .bla {
     margin: 5px 0 60px 0;
     text-align: center;
     align-content: center;
   }
+
   .join {
     display: none;
   }
+
   .main-program .join-text {
     display: unset;
     align-self: center;
     font-size: 10px;
     font-weight: bold;
   }
+
   .main-program .put {
     margin: auto;
   }
+
   .main-program .put .mide {
     width: fit-content;
     margin: auto;
     padding-bottom: 20px;
   }
+
   .mide .program {
     max-width: 130px;
     max-height: 140px;
@@ -413,51 +458,63 @@ body {
     display: block;
     margin: 1px;
   }
+
   .mide .program:hover {
     border: #fff 1px solid;
   }
+
   .mide .program .p-icon {
     color: #fff;
     font-size: 25px;
     margin: 10px 0 2px 28%;
   }
+
   .mide .program .p-title {
     font-size: 15px;
     padding: 0;
     margin: auto 30%;
   }
+
   .mide .program .p-text {
     font-size: 9px;
     margin: 0 auto 20px auto;
   }
+
   .speakers {
     padding: 5px;
   }
+
   .speakers h5 {
     font-size: larger;
   }
+
   .speakers .hide {
     padding: 10px;
     max-width: 47%;
     display: flex;
     background-color: #fff;
   }
+
   .speakers .speaker {
     padding: 5px;
     max-width: 47%;
   }
+
   .speakers .speaker .image {
     width: 100%;
   }
+
   .wide {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 10px;
   }
+
   .speakers .speaker .wide .f-image {
     margin-right: 10px;
   }
+
   .speakers .speaker .f-image img {
     position: absolute;
     margin: 0;
@@ -465,38 +522,47 @@ body {
     width: 80px;
     top: 12px;
   }
+
   .speaker .speaker .f-text {
     width: 70%;
   }
+
   .speakers .speaker .f-share h6 {
     font-weight: bold;
   }
+
   .speakers .speaker .f-text .f-title {
     font-size: 9px;
   }
+
   .speakers .speaker .f-text .f-teenage {
     font-size: 10px;
   }
+
   .speakers .more {
     display: none;
   }
+
   .wide {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 50px;
   }
+
   .partner {
     padding: 10px;
     background-color: rgb(41, 41, 41);
     color: #272a31;
   }
+
   .partner h5 {
     font-weight: bold;
     padding: 10px;
     text-align: center;
     color: #686969;
   }
+
   .partner h5:after {
     content: " ";
     display: block;
@@ -505,11 +571,13 @@ body {
     padding-top: 20px;
     border-bottom: 1px solid #ec5242;
   }
+
   .partner .place {
     padding: 10px;
     display: flex;
     flex-direction: column;
   }
+
   .partner .place .partners {
     padding: 10px;
     align-items: center;
@@ -520,36 +588,43 @@ body {
     flex-direction: row;
     width: fit-content;
   }
+
   .partner .place .partners .p-logo {
     padding: 5px;
     margin: 2px 2px;
   }
+
   .partner .place .partners .p-logo img {
     width: 100px;
     height: 100px;
   }
+
   footer {
     display: block;
     padding: 2px;
   }
+
   .foot {
     padding: 20px;
     display: flex;
     flex-direction: row;
     margin: auto;
   }
+
   .foot .last {
     display: flex;
     flex-direction: row;
     margin: auto;
     padding: 10px 10%;
   }
+
   .foot .last .f-content {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin: auto;
   }
+
   .foot .f-content .f-logo img {
     width: 90px;
     height: 90px;
@@ -557,12 +632,15 @@ body {
     margin-left: 60px;
     margin-right: 10px;
   }
+
   .foot .f-content .f-text {
     line-height: 10px;
   }
+
   .foot .f-content .f-text .copyright h6 {
     font-size: 12px;
   }
+
   .foot .f-content .f-text .license p {
     font-size: 12px;
     display: unset;
@@ -573,105 +651,129 @@ body {
   .intro .content {
     width: 100%;
   }
+
   .intro .content .sub h5 {
     font-size: 30px;
     font-weight: 100;
   }
+
   .intro .content .main h1 {
     font-size: 80px;
     font-weight: bolder;
-    ine-height: 100px;
+    line-height: 100px;
   }
+
   .intro .welcome p {
     margin-top: 20px;
     padding: 10px;
     background-color: #d5d6d62c;
     font-size: 15px;
   }
+
   .intro .featured h4 {
     font-size: 30px;
     margin-top: 20px;
   }
+
   .intro .featured p {
     margin-top: 10px;
     font-size: 25px;
   }
+
   .main-program h3 {
     font-size: 25px;
     font-weight: bold;
   }
+
   .main-program .put {
     margin: auto;
   }
+
   .main-program .put .mide {
     width: fit-content;
     margin: auto;
   }
+
   .mide .program {
     max-width: 190px;
     max-height: 170px;
     padding: 5px;
     display: block;
   }
+
   .mide .program:hover {
     border: #fff 1px solid;
   }
+
   .mide .program .p-icon {
     color: #fff;
     font-size: 35px;
     margin: 10px 0 2px 28%;
   }
+
   .mide .program .p-title {
     font-size: 19px;
     padding: 0;
     margin: auto 30%;
   }
+
   .mide .program .p-text {
     font-size: 11px;
     margin: auto;
     padding-bottom: 15px;
   }
+
   .speakers {
     display: flex;
     flex-direction: column;
   }
+
   .speakers h5 {
     font-size: 30px;
     font-weight: bold;
   }
+
   .speakers .speaker {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
+
   .speakers .speaker .image {
     width: 200px;
     height: 100px;
     padding: 0;
     margin: 5px;
   }
+
   .speakers .speaker .image .f-image {
     width: 150px;
     margin: 5px;
     background-size: 60px;
   }
+
   .speakers .speaker .image .f-image img {
     width: 80%;
     margin: 5px auto;
     padding-left: 5px;
   }
+
   .speakers .speaker .f-text {
     padding-top: 5px;
   }
+
   .speakers .speaker .f-text .f-share h6 {
     font-size: 16px;
   }
+
   .speakers .speaker .f-text .f-title span {
     font-size: 12px;
   }
+
   .speakers .speaker .f-text .f-teenage p {
     font-size: 14px;
   }
+
   .partner {
     display: flex;
     flex-direction: column;
