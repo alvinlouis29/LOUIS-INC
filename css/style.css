@@ -113,7 +113,7 @@ body {
   fill: #d3d3d3;
   align-self: center;
   margin: 0;
-  width: fit-content;
+  width: 100%;
 }
 
 .main-program .program .p-title {
@@ -123,7 +123,7 @@ body {
   align-self: center;
   color: #ec5242;
   margin: 0;
-  width: fit-content;
+  width: 100%;
 }
 
 .main-program .program .p-text {
@@ -167,7 +167,7 @@ body {
     color: #272a31;
   }
 
-  .speakers h5:after {
+  .speakers h5::after {
     content: " ";
     display: block;
     margin: 0 auto;
@@ -232,7 +232,7 @@ body {
     font-size: 10px;
   }
 
-  .speakers .speaker .f-text .f-title:after {
+  .speakers .speaker .f-text .f-title::after {
     content: " ";
     display: block;
     margin: 0;
@@ -272,7 +272,7 @@ body {
     color: #686969;
   }
 
-  .partner h5:after {
+  .partner h5::after {
     content: " ";
     display: block;
     margin: 0 auto;
@@ -295,7 +295,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    width: fit-content;
+    width: 100%;
   }
 
   .partner .place .partners .p-logo {
@@ -446,7 +446,7 @@ body {
   }
 
   .main-program .put .mide {
-    width: fit-content;
+    width: 100%;
     margin: auto;
     padding-bottom: 20px;
   }
@@ -563,7 +563,7 @@ body {
     color: #686969;
   }
 
-  .partner h5:after {
+  .partner h5::after {
     content: " ";
     display: block;
     margin: 0 auto;
@@ -586,7 +586,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    width: fit-content;
+    width: 100%;
   }
 
   .partner .place .partners .p-logo {
@@ -690,7 +690,7 @@ body {
   }
 
   .main-program .put .mide {
-    width: fit-content;
+    width: 100%;
     margin: auto;
   }
 
