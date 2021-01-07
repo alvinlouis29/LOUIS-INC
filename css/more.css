@@ -69,18 +69,12 @@
   border-bottom: 1px solid #fd1900;
 }
 
-.past h2 {
-  padding: 10px;
-  text-align: center;
-  color: #272a31;
-}
-
 .show h2 {
   font-size: 25px;
   font-weight: 600;
   padding: 10px;
   text-align: center;
-   color: #272a31;
+  color: #272a31;
 }
 
 .show h2:after {
