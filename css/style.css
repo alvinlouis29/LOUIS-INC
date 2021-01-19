@@ -446,6 +446,7 @@ body {
   }
 
   .main-program .put .mide {
+    justify-content: center;
     width: 100%;
     margin: auto;
     padding-bottom: 20px;
@@ -507,8 +508,10 @@ body {
   .wide {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
     padding: 10px;
+    width: 100%;
   }
 
   .speakers .speaker .wide .f-image {
