@@ -19,7 +19,7 @@ _Screenshot_
 
 ## PROJECT DESCRIPTION
 
-** This is my HTML/CSS capstone project from the microverse curriculum*
+** This is my HTML/CSS capstone project from the microverse curriculum i have built this project using Html5 and Css3 . Built with three pages the[Home](https://raw.githack.com/alvinlouis29/LOUIS-INC/capstone/index.html) [About](https://raw.githack.com/alvinlouis29/LOUIS-INC/capstone/about.html) [Tickets](https://raw.githack.com/alvinlouis29/LOUIS-INC/capstone/tickets.html)*
 
 ## Author
 
