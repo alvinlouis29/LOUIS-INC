@@ -303,6 +303,12 @@ body {
     margin: 2px 2px;
   }
 
+  .foot .f-content .f-logo img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+
   .partner .place .partners .p-logo img {
     width: 50px;
     height: 50px;
@@ -325,12 +331,6 @@ body {
     margin: auto;
     padding: 20px;
     justify-content: space-between;
-  }
-
-  .foot .f-content .f-logo img {
-    width: 50px;
-    height: 50px;
-    margin: auto;
   }
 
   .foot .f-content .f-text {
@@ -543,13 +543,6 @@ body {
     display: none;
   }
 
-  .wide {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 50px;
-  }
-
   .partner {
     padding: 10px;
     background-color: rgb(41, 41, 41);
@@ -594,7 +587,15 @@ body {
     margin: 2px 2px;
   }
 
-  .partner .place .partners .p-logo img {
+  .foot .f-content .f-logo img {
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    margin-left: 60px;
+    margin-right: 10px;
+  }
+
+   {
     width: 100px;
     height: 100px;
   }
@@ -625,14 +626,6 @@ body {
     margin: auto;
   }
 
-  .foot .f-content .f-logo img {
-    width: 90px;
-    height: 90px;
-    padding: 0;
-    margin-left: 60px;
-    margin-right: 10px;
-  }
-
   .foot .f-content .f-text {
     line-height: 10px;
   }
@@ -650,6 +643,11 @@ body {
 @media screen and (min-width: 1024px) {
   .intro .content {
     width: 100%;
+  }
+
+  .speakers h5 {
+    font-size: 30px;
+    font-weight: bold;
   }
 
   .intro .content .sub h5 {
@@ -690,7 +688,7 @@ body {
   }
 
   .main-program .put .mide {
-    width: 100%;
+    width: 100% ;
     margin: auto;
   }
 
@@ -726,11 +724,6 @@ body {
   .speakers {
     display: flex;
     flex-direction: column;
-  }
-
-  .speakers h5 {
-    font-size: 30px;
-    font-weight: bold;
   }
 
   .speakers .speaker {
